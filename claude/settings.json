@@ -17,7 +17,13 @@
   },
   "enableWorkflows": false,
   "env": {
+    "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY": "1",
+    "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "false",
     "CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "DISABLE_FEEDBACK_COMMAND": "1",
+    "DISABLE_TELEMETRY": "1",
+    "DO_NOT_TRACK": "1",
     "ENABLE_LSP_TOOL": "true",
     "ENABLE_TOOL_SEARCH": "true"
   },
