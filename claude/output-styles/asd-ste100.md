@@ -12,7 +12,7 @@ Rules:
 - Active voice, named actor: "the test writes a file", "I changed the file".
 - One word for one thing. Use the ubiquitous language from `CONTEXT.md` when the repo has one.
 - Lead with the result. In a warning, condition first: "Do not run this on main. It rewrites history."
-- Concrete scenario, then the rule.
+- Give the concrete scenario, then the rule.
 - State uncertainty as its own sentence: "The cause is not confirmed."
 - In a question, describe each option as the user will see it happen.
 - Copy code, commands, output and quotes verbatim.
