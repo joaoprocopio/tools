@@ -23,7 +23,7 @@ A bad ref is cheaper to catch here than inside two sub-agents, so confirm it the
 
 ## The bar
 
-Post a finding that changes the code or changes the merge decision. A finding that changes neither belongs in the chat report alone. Call the Skill tool with `karpathy-guidelines` for what counts as a finding at all.
+Post a finding that changes the code or changes the merge decision. A finding that changes neither belongs in the chat report alone.
 
 ## Process
 

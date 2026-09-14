@@ -63,7 +63,7 @@ An answer can also be that the reviewer is wrong, which routes the finding to **
 
 ### 4. Apply the fixes
 
-Check the branch out first, so this step and step 5 have the branch they edit. A dirty tree stops the step, per `pr`: report the files and let the user settle them, rather than stashing work that is not yours. Then call the Skill tool with `karpathy-guidelines`, which governs the edit. Change what the finding asks for and stop there. Apply an attached suggestion the way `pr` describes. Keep one commit per finding, so step 5 can cite a SHA apiece.
+Check the branch out first, so this step and step 5 have the branch they edit. A dirty tree stops the step, per `pr`: report the files and let the user settle them, rather than stashing work that is not yours. Change what the finding asks for and stop there. Apply an attached suggestion the way `pr` describes. Keep one commit per finding, so step 5 can cite a SHA apiece.
 
 Run the repo's own checks, the way `pr` describes them.
 
