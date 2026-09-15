@@ -36,7 +36,11 @@
     }
   },
   "outputStyle": "asd-ste100",
+  "permissions": {
+    "defaultMode": "auto"
+  },
   "prefersReducedMotion": true,
+  "promptSuggestionEnabled": false,
   "remoteControlAtStartup": false,
   "spinnerTipsEnabled": false,
   "switchModelsOnFlag": false,
