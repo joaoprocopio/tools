@@ -20,7 +20,7 @@ The rules for prose a human reads, held in this one file. Read them before draft
 
 ## Reviewing
 
-Read the target files, or ask the user which. Run `~/.claude/scripts/check-writing.py <path>` for the mechanical rules: typography, banned words, source formatting. Then apply every remaining rule to every line by hand; voice, concision, AI tells, and structure are judgement calls the script skips.
+Read the target files, or ask the user which. Then apply every rule to every line by hand.
 
 Report each violation as `file:line - rule, fix`, grouped by file, with a bare `✓ pass` for a clean file. Sacrifice grammar for brevity. Done when every rule has met every line.
 

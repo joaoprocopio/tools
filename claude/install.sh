@@ -12,7 +12,7 @@ command -v jq >/dev/null || { echo "faltando: jq" >&2; exit 1; }
 
 mkdir -p "$DEST"
 
-for name in skills output-styles scripts SYSTEM.md; do
+for name in skills output-styles SYSTEM.md; do
   rm -rf "${DEST:?}/$name"
   cp -R "$SRC/$name" "$DEST/$name"
   echo "+ $name"
